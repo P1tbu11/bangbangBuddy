@@ -11,7 +11,7 @@ function detectLocale(): Locale {
   } catch {
     // browser API unavailable
   }
-  return 'en';
+  return 'zh-CN';
 }
 
 interface LocaleState {
